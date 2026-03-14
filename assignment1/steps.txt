@@ -53,3 +53,9 @@ Update > models.py
 Update > admin.py
 python manage.py makemigrations
 python manage.py migrate
+
+Q9
+Create > templates/studentApp/student_list.html
+Create > studentApp/urls.py
+Update > college_project/urls.py
+

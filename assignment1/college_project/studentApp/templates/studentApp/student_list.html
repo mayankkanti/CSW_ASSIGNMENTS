@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head><title>Student List</title></head>
+<body>
+  <h1>Students</h1>
+  {% for student in students %}
+    <div>
+      <p>Name: {{ student.name }}</p>
+      <p>Age: {{ student.age }}</p>
+      <p>Roll Number: {{ student.roll_number }}</p>
+      <p>Department: {{ student.department }}</p>
+      <a href="/students/{{ student.pk }}/">View Details</a>
+      <hr>
+    </div>
+  {% endfor %}
+</body>
+</html>

@@ -149,3 +149,4 @@ __pycache__/
 # Specific CPython compiled files
 *.cpython-*
 *.pyc
+assignment1/college_blog/blog/migrations/0002_alter_post_options_post_author_post_created_and_more.py
